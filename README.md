@@ -31,4 +31,4 @@ npm install --save-dev coffeelint-config-suddi
 }
 ```
 
-- Then apply the linter with `npm run lint`.
+- Then apply the linter with `npm run lint`. 
