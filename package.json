@@ -33,7 +33,7 @@
 		"lint": "coffeelint .",
 		"prepush": "npm test",
 		"security-check": "nsp check --output summary",
-		"test": "npm run security-check"
+		"test": "npm run lint && npm run security-check"
 	},
 	"dependencies": {},
 	"devDependencies": {

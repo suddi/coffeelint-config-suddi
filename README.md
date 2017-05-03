@@ -31,4 +31,20 @@ npm install --save-dev coffeelint-config-suddi
 }
 ```
 
-- Then apply the linter with `npm run lint`. 
+- Then apply the linter with `npm run lint`.
+
+## Changelog
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [2.0.0] - 2017-05-03
+### Added
+- Added `no_spaces` rule
+
+### Changed
+- Switched configuration to using tabs for indentation
+
+## [1.0.0] - 2017-02-13
+### Added
+- Initial coffeelint configuration
