@@ -1,7 +1,7 @@
 {
   "name": "coffeelint-config-suddi",
-  "description": "Coffeelint configuration for coffeescript development",
-  "version": "2.0.6",
+  "description": "Coffeelint configuration set for rapid coffeescript development, similar to eslint configurations",
+  "version": "2.0.7",
   "homepage": "https://www.npmjs.com/package/coffeelint-config-suddi",
   "author": {
     "name": "Sudharshan Ravindran",
