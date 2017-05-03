@@ -47,6 +47,10 @@ echo node_modules > .coffeelintignore
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.1]
+### Changed
+- Set `max_line_length` to `"ignore"`
+
 ## [2.0.0] - 2017-05-03
 ### Added
 - Added `no_spaces` rule

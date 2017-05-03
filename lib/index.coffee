@@ -50,8 +50,8 @@ getConfig = () ->
 			value: 'unix'
 		max_line_length:
 			value: 80
-			level: 'error'
-			limitComments: true
+			level: 'ignore'
+			limitComments: false
 		missing_fat_arrows:
 			level: 'error'
 			is_strict: false
