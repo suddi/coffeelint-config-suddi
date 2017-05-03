@@ -1,9 +1,9 @@
 machine:
     node:
-        version: '6.0.0'
+        version: '6'
 test:
     override:
-        - ./bin/ci.sh:
+        - source ./bin/ci.sh:
             parallel: true
     post:
         - bash <(curl -s https://codecov.io/bash)
