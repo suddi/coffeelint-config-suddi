@@ -41,6 +41,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [2.0.0] - 2017-05-03
 ### Added
 - Added `no_spaces` rule
+- Added tests for custom rules
 
 ### Changed
 - Switched configuration to using tabs for indentation
