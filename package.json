@@ -1,46 +1,47 @@
 {
-  "name": "coffeelint-config-suddi",
-  "description": "Coffeelint configuration for coffeescript development",
-  "version": "1.0.2",
-  "homepage": "https://www.npmjs.com/package/coffeelint-config-suddi",
-  "author": {
-    "name": "Sudharshan Ravindran",
-    "email": "mail@suddi.io",
-    "url": "https://suddi.io"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/suddi/coffeelint-config-suddi"
-  },
-  "bugs": {
-    "url": "https://github.com/suddi/coffeelint-config-suddi/issues"
-  },
-  "files": [
-    "lib"
-  ],
-  "main": "lib/index.coffee",
-  "license": "MIT",
-  "keywords": [
-    "coffeelint",
-    "lint",
-    "linter"
-  ],
-  "engines": {
-    "node": ">= 4.0.0",
-    "npm": ">= 2.0.0"
-  },
-  "scripts": {
-    "lint": "coffeelint .",
-    "prepush": "npm test",
-    "security-check": "nsp check --output summary",
-    "start": "ntl",
-    "test": "npm run security-check"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "coffeelint": "^1.0.0",
-    "husky": "^0.13.0",
-    "nsp": "^2.0.0",
-    "ntl": "^1.0.0"
-  }
+	"name": "coffeelint-config-suddi",
+	"description": "Coffeelint configuration for coffeescript development",
+	"version": "2.0.0",
+	"homepage": "https://www.npmjs.com/package/coffeelint-config-suddi",
+	"author": {
+		"name": "Sudharshan Ravindran",
+		"email": "mail@suddi.io",
+		"url": "https://suddi.io"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/suddi/coffeelint-config-suddi"
+	},
+	"bugs": {
+		"url": "https://github.com/suddi/coffeelint-config-suddi/issues"
+	},
+	"files": [
+		"lib"
+	],
+	"main": "lib/index.coffee",
+	"license": "MIT",
+	"keywords": [
+		"coffeelint",
+		"lint",
+		"linter"
+	],
+	"engines": {
+		"node": ">= 4.0.0",
+		"npm": ">= 2.0.0"
+	},
+	"scripts": {
+		"lint": "coffeelint .",
+		"prepush": "npm test",
+		"security-check": "nsp check --output summary",
+		"test": "npm run security-check"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"coffeelint": "^1.0.0",
+		"husky": "^0.13.0",
+		"nsp": "^2.0.0"
+	},
+	"coffeelintConfig": {
+		"extends": "../../../lib/index.coffee"
+	}
 }
