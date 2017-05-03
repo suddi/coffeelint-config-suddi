@@ -6,7 +6,7 @@ module.exports.getRule = () ->
 
 module.exports.correct = () ->
 	'''
-	this()
+	dis()
 		.is()
 		.correct()
 		.chaining()
@@ -15,7 +15,7 @@ module.exports.correct = () ->
 
 module.exports.incorrect = () ->
 	'''
-	this()
+	dis()
 	 .is()
 	 .not()
 	 .correct()
