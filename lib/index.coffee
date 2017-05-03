@@ -7,7 +7,7 @@ loadRules = () ->
 	fs
 		.readdirSync rulesDir
 		.filter (filename) ->
-			return filename.endsWith '.js'
+			return filename.endsWith '.coffee'
 		.map (filename) ->
 			filepath = path.join rulesDir, filename
 			rule = require filepath

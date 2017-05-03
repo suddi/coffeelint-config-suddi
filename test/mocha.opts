@@ -1,0 +1,6 @@
+test
+--compilers coffee:coffee-script/register
+--recursive
+--require coffee-coverage/register-istanbul
+--reporter spec
+--timeout 5000

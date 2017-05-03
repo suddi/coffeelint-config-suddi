@@ -1,47 +1,54 @@
 {
-	"name": "coffeelint-config-suddi",
-	"description": "Coffeelint configuration for coffeescript development",
-	"version": "2.0.0",
-	"homepage": "https://www.npmjs.com/package/coffeelint-config-suddi",
-	"author": {
-		"name": "Sudharshan Ravindran",
-		"email": "mail@suddi.io",
-		"url": "https://suddi.io"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/suddi/coffeelint-config-suddi"
-	},
-	"bugs": {
-		"url": "https://github.com/suddi/coffeelint-config-suddi/issues"
-	},
-	"files": [
-		"lib"
-	],
-	"main": "lib/index.coffee",
-	"license": "MIT",
-	"keywords": [
-		"coffeelint",
-		"lint",
-		"linter"
-	],
-	"engines": {
-		"node": ">= 4.0.0",
-		"npm": ">= 2.0.0"
-	},
-	"scripts": {
-		"lint": "coffeelint .",
-		"prepush": "npm test",
-		"security-check": "nsp check --output summary",
-		"test": "npm run lint && npm run security-check"
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"coffeelint": "^1.0.0",
-		"husky": "^0.13.0",
-		"nsp": "^2.0.0"
-	},
-	"coffeelintConfig": {
-		"extends": "../../../lib/index.coffee"
-	}
+  "name": "coffeelint-config-suddi",
+  "description": "Coffeelint configuration for coffeescript development",
+  "version": "2.0.0",
+  "homepage": "https://www.npmjs.com/package/coffeelint-config-suddi",
+  "author": {
+    "name": "Sudharshan Ravindran",
+    "email": "mail@suddi.io",
+    "url": "https://suddi.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suddi/coffeelint-config-suddi"
+  },
+  "bugs": {
+    "url": "https://github.com/suddi/coffeelint-config-suddi/issues"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.coffee",
+  "license": "MIT",
+  "keywords": [
+    "coffeelint",
+    "lint",
+    "linter"
+  ],
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 2.0.0"
+  },
+  "scripts": {
+    "check-coverage": "istanbul check-coverage",
+    "coverage": "istanbul cover _mocha",
+    "lint": "coffeelint .",
+    "prepush": "npm test",
+    "security-check": "nsp check --output summary",
+    "test": "npm run lint && npm run security-check && npm run coverage && npm run check-coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-coverage": "^2.0.1",
+    "coffee-script": "^1.12.5",
+    "coffeelint": "^1.0.0",
+    "husky": "^0.13.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.3.0",
+    "nsp": "^2.0.0"
+  },
+  "coffeelintConfig": {
+    "extends": "../../../lib/index.coffee"
+  }
 }
