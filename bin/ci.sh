@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function npmtest() {
     rm -rf node_modules
@@ -8,7 +8,7 @@ function npmtest() {
     npm test
 }
 
-function run () {
+function run() {
     case "$CIRCLE_NODE_INDEX" in
         0)
             npm test
