@@ -39,7 +39,7 @@ npm install --save-dev coffeelint coffeelint-config-suddi
 **NOTE:** You will likely want to include a `.coffeelintignore` file, as `coffeelint`, by default will include all `.coffee` files including those inside of `node_modules`:
 
 ````sh
-echo node_modules > .coffeelintignore
+echo "node_modules" > .coffeelintignore
 ````
 
 ## Changelog
