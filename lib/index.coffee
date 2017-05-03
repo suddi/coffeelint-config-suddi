@@ -82,7 +82,7 @@ getConfig = () ->
 		no_private_function_fat_arrows:
 			level: 'error'
 		no_stand_alone_at:
-			level: 'error'
+			level: 'ignore'
 		no_spaces:
 			level: 'error'
 		no_tabs:
