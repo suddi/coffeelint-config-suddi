@@ -12,7 +12,7 @@
 [![codecov](https://codecov.io/gh/suddi/coffeelint-config-suddi/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/coffeelint-config-suddi)
 
 ````
-npm install --save-dev coffeelint-config-suddi
+npm install --save-dev coffeelint coffeelint-config-suddi
 ````
 
 ## Usage
@@ -26,7 +26,7 @@ npm install --save-dev coffeelint-config-suddi
 	},
 	"devDependencies": {
 		"coffeelint": "^1.0.0",
-		"coffeelint-config-suddi": "^1.0.0"
+		"coffeelint-config-suddi": "^2.0.0"
 	},
 	"coffeelintConfig": {
 		"extends": "coffeelint-config-suddi"
