@@ -19,7 +19,7 @@ describe 'Integration Tests for Custom Rules', () ->
 	fs
 		.readdirSync fixturesDir
 		.filter (filename) ->
-			filename.endsWith '.coffee'
+			filename.match /\.coffee$/
 		.map (filename, index) ->
 			it "CASE #{index + 1}: Testing #{filename}", () ->
 				filepath = path.join fixturesDir, filename
