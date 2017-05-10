@@ -1,5 +1,7 @@
+_ = require 'lodash'
+
 module.exports.getConfig = (coffeelintConfig) ->
-	Object.assign {}, coffeelintConfig, {
+	_.merge {}, coffeelintConfig, {
 		no_spaces:
 			level: 'ignore'
 		no_tabs:
