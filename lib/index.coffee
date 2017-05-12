@@ -20,7 +20,7 @@ getConfig = () ->
 			level: 'error'
 		braces_spacing:
 			level: 'error'
-			spaces: 0
+			spaces: 1
 			empty_object_spaces: 0
 		camel_case_classes:
 			level: 'error'
