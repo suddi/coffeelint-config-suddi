@@ -1,7 +1,7 @@
 {
   "name": "coffeelint-config-suddi",
   "description": "Coffeelint configuration set for rapid coffeescript development, similar to eslint configurations",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "homepage": "https://www.npmjs.com/package/coffeelint-config-suddi",
   "author": {
     "name": "Sudharshan Ravindran",
@@ -28,8 +28,7 @@
     "linter"
   ],
   "engines": {
-    "node": ">= 4.0.0",
-    "npm": ">= 2.0.0"
+    "node": ">= 0.12.0"
   },
   "scripts": {
     "check-coverage": "istanbul check-coverage",

@@ -47,6 +47,18 @@ echo "node_modules" > .coffeelintignore
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.11] - 2017-05-29
+## Added
+- Unit tests added for custom configurations
+
+## [2.0.9] - 2017-05-12
+## Changed
+- Updated `braces_spacing` to 1
+
+## [2.0.6] - 2017-05-10
+## Changed
+- Updated code to be compatible with node>0.12
+
 ## [2.0.2] - 2017-05-03
 ### Changed
 - Set `no_stand_alone_at` to `"ignore"`
