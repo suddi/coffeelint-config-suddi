@@ -49,6 +49,10 @@ echo "node_modules" > .coffeelintignore
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.12] - 2017-05-30
+## Changed
+- Upgraded packages according to greenkeeper.io
+
 ## [2.0.11] - 2017-05-29
 ## Added
 - Unit tests added for custom configurations
