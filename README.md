@@ -1,12 +1,11 @@
 # coffeelint-config-suddi
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/suddi/coffeelint-config-suddi.svg)](https://greenkeeper.io/)
-
 [![CircleCI](https://img.shields.io/circleci/project/suddi/coffeelint-config-suddi.svg)](https://circleci.com/gh/suddi/coffeelint-config-suddi)
 [![codecov](https://codecov.io/gh/suddi/coffeelint-config-suddi/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/coffeelint-config-suddi)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f3cbca070bbd4488b579748680348c28)](https://www.codacy.com/app/suddir/coffeelint-config-suddi)
 [![npm](https://img.shields.io/npm/v/coffeelint-config-suddi.svg)](https://www.npmjs.com/package/coffeelint-config-suddi)
 [![npm](https://img.shields.io/npm/dt/coffeelint-config-suddi.svg)](https://www.npmjs.com/package/coffeelint-config-suddi)
+[![Greenkeeper badge](https://badges.greenkeeper.io/suddi/coffeelint-config-suddi.svg)](https://greenkeeper.io/)
 [![David](https://img.shields.io/david/suddi/coffeelint-config-suddi.svg)](https://david-dm.org/suddi/coffeelint-config-suddi)
 [![David](https://img.shields.io/david/dev/suddi/coffeelint-config-suddi.svg)](https://david-dm.org/suddi/coffeelint-config-suddi?type=dev)
 [![license](https://img.shields.io/github/license/suddi/coffeelint-config-suddi.svg)](https://raw.githubusercontent.com/suddi/coffeelint-config-suddi/master/LICENSE)
@@ -48,6 +47,10 @@ echo "node_modules" > .coffeelintignore
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [2.0.13] - 2017-05-30
+## Changed
+- Added Greenkeeper badge
 
 ## [2.0.12] - 2017-05-30
 ## Changed
