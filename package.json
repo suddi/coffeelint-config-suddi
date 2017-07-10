@@ -1,7 +1,7 @@
 {
   "name": "coffeelint-config-suddi",
   "description": "Coffeelint configuration set for rapid coffeescript development, similar to eslint configurations",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "homepage": "https://www.npmjs.com/package/coffeelint-config-suddi",
   "author": {
     "name": "Sudharshan Ravindran",
@@ -42,9 +42,9 @@
   "devDependencies": {
     "chai": "^4.0.0",
     "coffee-coverage": "^2.0.0",
-    "coffee-script": "^1.0.0",
+    "coffee-script": "^1.12.6",
     "coffeelint": "^1.0.0",
-    "husky": "^0.14.0",
+    "husky": "0.13.0",
     "istanbul": "^0.4.0",
     "lodash": "^4.0.0",
     "mocha": "^3.0.0",

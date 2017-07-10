@@ -1,6 +1,6 @@
 # coffeelint-config-suddi
 
-[![CircleCI](https://img.shields.io/circleci/project/suddi/coffeelint-config-suddi.svg)](https://circleci.com/gh/suddi/coffeelint-config-suddi)
+[![CircleCI](https://img.shields.io/circleci/project/suddi/coffeelint-config-suddi/master.svg)](https://circleci.com/gh/suddi/coffeelint-config-suddi)
 [![codecov](https://codecov.io/gh/suddi/coffeelint-config-suddi/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/coffeelint-config-suddi)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f3cbca070bbd4488b579748680348c28)](https://www.codacy.com/app/suddir/coffeelint-config-suddi)
 [![npm](https://img.shields.io/npm/v/coffeelint-config-suddi.svg)](https://www.npmjs.com/package/coffeelint-config-suddi)
