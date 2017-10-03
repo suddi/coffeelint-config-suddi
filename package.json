@@ -44,7 +44,7 @@
     "coffee-coverage": "^2.0.0",
     "coffee-script": "^1.12.6",
     "coffeelint": "^1.0.0",
-    "husky": "0.13.0",
+    "husky": "0.15.0-beta.2",
     "istanbul": "^0.4.0",
     "lodash": "^4.0.0",
     "mocha": "^3.0.0",
