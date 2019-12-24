@@ -1,0 +1,21 @@
+{
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 100,
+    "statements": 80,
+    "functions": 100,
+    "branches": 50,
+    "extension": [
+        ".coffee"
+    ],
+    "exclude": [],
+    "include": [
+        "lib/**/*.coffee"
+    ],
+    "reporter": [
+        "lcov",
+        "json",
+        "text"
+    ],
+    "all": true
+}

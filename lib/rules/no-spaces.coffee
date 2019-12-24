@@ -5,9 +5,7 @@ module.exports = class NoSpaces
 		name: 'no_spaces'
 		level: 'ignore'
 		message: 'Line contains space indentation'
-		description: '''
-			This rule forbids spaces in indentation. It is disabled by default.
-			'''
+		description: 'This rule forbids spaces in indentation. It is disabled by default.'
 
 	lintLine: (line, lineApi) ->
 		# Only check lines that have compiled tokens. This helps

@@ -21,3 +21,4 @@ indent_style = space
 [*.yml]
 # http://www.yaml.org/spec/1.2/spec.html#id2777534
 indent_style = space
+indent_size = 2
