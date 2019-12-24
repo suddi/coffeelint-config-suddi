@@ -15,6 +15,6 @@ module.exports.correct = () ->
 	'''
 	x = () ->
 		y = () ->
-		 return 42
+			return 42
 
 	'''

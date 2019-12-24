@@ -41,7 +41,7 @@
   "devDependencies": {
     "chai": "^4.0.0",
     "coffee-coverage": "^2.0.0",
-    "coffeelint": "^1.0.0",
+    "coffeelint": "^2.1.0",
     "coffeescript": "^2.4.1",
     "husky": "0.13.0",
     "lodash": "^4.17.15",
@@ -49,7 +49,7 @@
     "nyc": "^15.0.0"
   },
   "peerDependencies": {
-    "coffeelint": "^1.0.0"
+    "coffeelint": "^2.1.0"
   },
   "coffeelintConfig": {
     "extends": "../../../lib/index.coffee"
