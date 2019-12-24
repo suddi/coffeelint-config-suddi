@@ -1,39 +1,53 @@
 version: 2
 
+commands:
+  install:
+    description: Install dependencies from NPM
+    steps:
+      - run: npm install
+
+  test:
+    description: Apply linting, perform security check on dependencies and execute tests and generate code coverage
+    steps:
+      - run: npm test
+
 jobs:
-  node6:
-    docker:
-      - image: circleci/node:6
-    steps:
-      - checkout
-      - run: npm install
-      - run: npm test
-  node8:
-    docker:
-        - image: circleci/node:8
-    steps:
-        - checkout
-        - run: npm install
-        - run: npm test
-  node10:
-    docker:
-      - image: circleci/node:10
-    steps:
-      - checkout
-      - run: npm install
-      - run: npm test
-  node12:
+  build:
     docker:
       - image: circleci/node:12
     steps:
       - checkout
-      - run: npm install
-      - run: npm test
+      - install
+
+  test-node8:
+    docker:
+      - image: circleci/node:8
+    steps:
+        - test
+
+  test-node10:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - test
+
+  test-node12:
+    docker:
+      - image: circleci/node:12
+    steps:
+      - test
+
 workflows:
   version: 2
   build_and_test:
     jobs:
-      - node6
-      - node8
-      - node10
-      - node12
+      - build
+      - test-node8:
+          requires:
+            - build
+      - test-node10:
+          requires:
+            - build
+      - test-node12:
+          requires:
+            - build
