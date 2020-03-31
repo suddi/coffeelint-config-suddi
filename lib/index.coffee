@@ -98,7 +98,7 @@ getConfig = () ->
 			allowed_in_comments: false
 			allowed_in_empty_lines: false
 		no_unnecessary_double_quotes:
-			level: 'error'
+			level: 'ignore'
 		no_unnecessary_fat_arrows:
 			level: 'error'
 		non_empty_constructor_needs_parens:
