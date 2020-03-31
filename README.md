@@ -27,7 +27,7 @@ npm install --save-dev coffeelint coffeelint-config-suddi
 	},
 	"devDependencies": {
 		"coffeelint": "^2.1.0",
-		"coffeelint-config-suddi": "^2.0.0"
+		"coffeelint-config-suddi": "^3.0.0"
 	},
 	"coffeelintConfig": {
 		"extends": "coffeelint-config-suddi"
