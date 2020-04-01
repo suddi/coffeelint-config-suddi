@@ -5,7 +5,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f3cbca070bbd4488b579748680348c28)](https://www.codacy.com/app/suddir/coffeelint-config-suddi)
 [![npm](https://img.shields.io/npm/v/coffeelint-config-suddi.svg)](https://www.npmjs.com/package/coffeelint-config-suddi)
 [![npm](https://img.shields.io/npm/dt/coffeelint-config-suddi.svg)](https://www.npmjs.com/package/coffeelint-config-suddi)
-[![Greenkeeper badge](https://badges.greenkeeper.io/suddi/coffeelint-config-suddi.svg)](https://greenkeeper.io/)
+
 [![David](https://img.shields.io/david/suddi/coffeelint-config-suddi.svg)](https://david-dm.org/suddi/coffeelint-config-suddi)
 [![David](https://img.shields.io/david/dev/suddi/coffeelint-config-suddi.svg)](https://david-dm.org/suddi/coffeelint-config-suddi?type=dev)
 [![license](https://img.shields.io/github/license/suddi/coffeelint-config-suddi.svg)](https://raw.githubusercontent.com/suddi/coffeelint-config-suddi/master/LICENSE)
