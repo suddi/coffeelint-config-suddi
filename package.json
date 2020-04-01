@@ -33,7 +33,6 @@
   "scripts": {
     "coverage": "nyc mocha",
     "lint": "coffeelint .",
-    "prepush": "npm test",
     "security-check": "npm audit --audit-level high || true",
     "test": "npm run lint && npm run security-check && npm run coverage"
   },
@@ -53,5 +52,10 @@
   },
   "coffeelintConfig": {
     "extends": "../../../lib/index.coffee"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
   }
 }
