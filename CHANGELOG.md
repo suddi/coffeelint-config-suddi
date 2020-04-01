@@ -3,6 +3,15 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.0.3] - 2020-04-01
+## Changed
+- Migrated to using `nyc` from `istanbul`
+- Upgraded packages according to greenkeeper.io
+- Added `.mocharc.yml`
+- Migrated `husky` pre-push hooks
+- Migrated to `coffeescript@^2.0.0`
+- Migrated to CircleCI v2 pipelines
+
 ## [2.0.15] - 2017-08-13
 ## Changed
 - Added `coffeelint` as a `peerDependency`
