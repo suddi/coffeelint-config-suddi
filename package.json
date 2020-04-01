@@ -31,7 +31,7 @@
     "node": ">= 6.0.0"
   },
   "scripts": {
-    "coverage": "nyc _mocha --opts test/mocha.opts",
+    "coverage": "nyc mocha",
     "lint": "coffeelint .",
     "prepush": "npm test",
     "security-check": "npm audit --audit-level high || true",
