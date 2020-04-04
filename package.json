@@ -28,7 +28,8 @@
     "linter"
   ],
   "engines": {
-    "node": ">= 6.0.0"
+    "node": ">= 8.0.0",
+    "npm": ">= 5.0.0"
   },
   "scripts": {
     "coverage": "nyc mocha",
